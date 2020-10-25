@@ -6,3 +6,6 @@ venv/
 # Flask stuff:
 instance/
 .webassets-cache
+
+# Database
+flaskr/flaskr/flask_study.db
