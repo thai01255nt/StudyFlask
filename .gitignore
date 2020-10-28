@@ -1,11 +1,19 @@
 .idea/
 venv/
 # Byte-compiled / optimized / DLL files
-*__pycache__*
+*.pyc
+__pycache__/
 
 # Flask stuff:
 instance/
+.pytest_cache/
+.coverage
+htmlcov/
 .webassets-cache
+
+dist/
+build/
+*.egg-info/
 flaskr.egg-info/
 
 # Database
